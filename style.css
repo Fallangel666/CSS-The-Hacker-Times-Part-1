@@ -3,12 +3,10 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: white;
     color:#dd3232 ;
-
 }
 header{
     font-family: 'Abril Fatface', cursive;
-    background-color: #eee;
-    
+    background-color: #eee;   
 }
 title{
     font-family: 'Roboto Slab';
@@ -19,13 +17,27 @@ title{
     border-radius: 50%;
     box-shadow: 8px #ddd;
     padding: 6px;
+    border: 8px solid black;
 }
 li{
     list-style: none;
-    margin: auto;
+    text-align: center;
     display: inline-block;
-    padding: 1px;
-    border-top: 2px;
-    border-bottom: 2px;
+  
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } 
+p{
+    text-align: justify;
+}
+ul{
+    text-align: center; 
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
     color: #777;
 }
+
