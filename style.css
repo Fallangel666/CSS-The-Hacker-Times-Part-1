@@ -40,7 +40,12 @@ ul{
     border-bottom: 8px solid black;
     color: #777;
 }
-main{
+h5{
      color:#dd3232 ;
 }
-
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    color: #777;
+}
